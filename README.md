@@ -2,5 +2,4 @@
 
 REST API
 
-Django
 Django REST Framework
