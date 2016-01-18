@@ -12,7 +12,7 @@ class DetailCitizenSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Citizen
-        fields = ('user', 'city', 'is_anon')
+        fields = ('user', 'city')
 
     def get_user(self, obj):
         return UserSerializer(obj.user, context=self.context).data
