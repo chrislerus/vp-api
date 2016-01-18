@@ -1,0 +1,4 @@
+build:
+  image: python2.7
+  commands:
+    - echo foo
